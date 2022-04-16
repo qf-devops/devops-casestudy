@@ -33,7 +33,7 @@ For improving code readability, ensure you create modules on Puppet-Master, to a
 Architectural Advice:
 
 Create 3 servers on azure
-Server 1 - should have Jenkins Master and Puppet Master Installed
+Server 1 - should have Jenkins Master and ansible/tf Installed
 Server 2 - Testing Server, Jenkins Slave
 Server 3 - Prod Server, Jenkins Slave
 0. CI:
@@ -41,6 +41,6 @@ Server 3 - Prod Server, Jenkins Slave
     build and push to dockerhub or ecr
 1. deployment:
     ansible
-    puppet
+    k8s
     docker
-    aks
+    eks
