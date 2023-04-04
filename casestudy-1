@@ -27,7 +27,7 @@ The content of this file, should be based on whether git is installed or not.
 If git is installed => "Git is Installed on this System"
 If git is not installed => "Git is not installed on this System"
 
-For improving code readability, ensure you create modules on Puppet-Master, to accomplish this task.
+For improving code readability, ensure you create modules on ansible, to accomplish this task.
 
 
 Architectural Advice:
